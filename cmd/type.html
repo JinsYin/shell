@@ -1,0 +1,3639 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>type · 《Shell》</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Jins Yin">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="uniq.html" />
+    
+    
+    <link rel="prev" href="tr.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://githome.io/knowledge-base/" target="_blank" class="custom-link">知识库</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://weplay.me" target="_blank" class="custom-link">微架构师</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://quickstarts.io" target="_blank" class="custom-link">快速入门</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">sh</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../sh/builtin-cmds/">
+            
+                <a href="../sh/builtin-cmds/">
+            
+                    
+                    builtin-cmds
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../sh/shell.html">
+            
+                <a href="../sh/shell.html">
+            
+                    
+                    Linux Shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../sh/variables/">
+            
+                <a href="../sh/variables/">
+            
+                    
+                    variables
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">BASH</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../bash/">
+            
+                <a href="../bash/">
+            
+                    
+                    bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../bash/builtin-cmds/">
+            
+                <a href="../bash/builtin-cmds/">
+            
+                    
+                    builtin-cmds
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../bash/features/">
+            
+                <a href="../bash/features/">
+            
+                    
+                    features
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../bash/installation/">
+            
+                <a href="../bash/installation/">
+            
+                    
+                    installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../bash/variables/">
+            
+                <a href="../bash/variables/">
+            
+                    
+                    variables
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ZSH</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../zsh/">
+            
+                <a href="../zsh/">
+            
+                    
+                    zsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../zsh/cmd/">
+            
+                <a href="../zsh/cmd/">
+            
+                    
+                    cmds
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../zsh/cmd/d.html">
+            
+                <a href="../zsh/cmd/d.html">
+            
+                    
+                    d
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../zsh/cmd/take.html">
+            
+                <a href="../zsh/cmd/take.html">
+            
+                    
+                    take
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../zsh/cmd/zsh_stats.html">
+            
+                <a href="../zsh/cmd/zsh_stats.html">
+            
+                    
+                    zsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../zsh/installation.html">
+            
+                <a href="../zsh/installation.html">
+            
+                    
+                    安装 zsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../zsh/oh-my-zsh/">
+            
+                <a href="../zsh/oh-my-zsh/">
+            
+                    
+                    oh-my-zsh
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.1" data-path="../zsh/oh-my-zsh/configuration.html">
+            
+                <a href="../zsh/oh-my-zsh/configuration.html">
+            
+                    
+                    Oh-my-zsh 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.2" data-path="../zsh/oh-my-zsh/installation.html">
+            
+                <a href="../zsh/oh-my-zsh/installation.html">
+            
+                    
+                    安装 Oh-my-zsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3" data-path="../zsh/oh-my-zsh/plugins/">
+            
+                <a href="../zsh/oh-my-zsh/plugins/">
+            
+                    
+                    plugins
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.3.1" data-path="../zsh/oh-my-zsh/plugins/autojump.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/autojump.html">
+            
+                    
+                    Autojump 插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3.2" data-path="../zsh/oh-my-zsh/plugins/git-open.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/git-open.html">
+            
+                    
+                    git-open
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3.3" data-path="../zsh/oh-my-zsh/plugins/history.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/history.html">
+            
+                    
+                    history 插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3.4" data-path="../zsh/oh-my-zsh/plugins/z.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/z.html">
+            
+                    
+                    z
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3.5" data-path="../zsh/oh-my-zsh/plugins/zsh-autosuggestions.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/zsh-autosuggestions.html">
+            
+                    
+                    zsh-autosuggestions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3.6" data-path="../zsh/oh-my-zsh/plugins/zsh-syntax-highlighting.html">
+            
+                <a href="../zsh/oh-my-zsh/plugins/zsh-syntax-highlighting.html">
+            
+                    
+                    zsh-syntax-highlighting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.4" data-path="../zsh/oh-my-zsh/themes/">
+            
+                <a href="../zsh/oh-my-zsh/themes/">
+            
+                    
+                    themes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.4.1" data-path="../zsh/oh-my-zsh/themes/agnoster.html">
+            
+                <a href="../zsh/oh-my-zsh/themes/agnoster.html">
+            
+                    
+                    Agnoster 主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">内置命令</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    cmd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="SUMMARY.html">
+            
+                <a href="SUMMARY.html">
+            
+                    
+                    SUMMARY
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="alias.html">
+            
+                <a href="alias.html">
+            
+                    
+                    alias
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="alias/">
+            
+                <a href="alias/">
+            
+                    
+                    alias
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="awk.html">
+            
+                <a href="awk.html">
+            
+                    
+                    awk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="command.html">
+            
+                <a href="command.html">
+            
+                    
+                    command
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" >
+            
+                <span>
+            
+                    
+                    command
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.7.1" data-path="command/fc.html">
+            
+                <a href="command/fc.html">
+            
+                    
+                    fc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="cprogramming/">
+            
+                <a href="cprogramming/">
+            
+                    
+                    cprogramming
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="cprogramming/cc-c99.html">
+            
+                <a href="cprogramming/cc-c99.html">
+            
+                    
+                    cc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="cprogramming/cflow.html">
+            
+                <a href="cprogramming/cflow.html">
+            
+                    
+                    cflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="cprogramming/ctags.html">
+            
+                <a href="cprogramming/ctags.html">
+            
+                    
+                    ctags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="cprogramming/cxref.html">
+            
+                <a href="cprogramming/cxref.html">
+            
+                    
+                    cxref
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="cprogramming/lex.html">
+            
+                <a href="cprogramming/lex.html">
+            
+                    
+                    lex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6" data-path="cprogramming/nm.html">
+            
+                <a href="cprogramming/nm.html">
+            
+                    
+                    nm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.7" data-path="cprogramming/strings.html">
+            
+                <a href="cprogramming/strings.html">
+            
+                    
+                    strings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.8" data-path="cprogramming/strip.html">
+            
+                <a href="cprogramming/strip.html">
+            
+                    
+                    strip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.9" data-path="cprogramming/yacc.html">
+            
+                <a href="cprogramming/yacc.html">
+            
+                    
+                    yacc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="cut.html">
+            
+                <a href="cut.html">
+            
+                    
+                    cut
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="diff.html">
+            
+                <a href="diff.html">
+            
+                    
+                    diff
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="exec.html">
+            
+                <a href="exec.html">
+            
+                    
+                    exec
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" >
+            
+                <span>
+            
+                    
+                    fs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.1" data-path="fs/attr.html">
+            
+                <a href="fs/attr.html">
+            
+                    
+                    attr
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.2" data-path="fs/cat.html">
+            
+                <a href="fs/cat.html">
+            
+                    
+                    cat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.3" data-path="fs/cd.html">
+            
+                <a href="fs/cd.html">
+            
+                    
+                    cd - 切换工作目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.4" data-path="fs/compress/">
+            
+                <a href="fs/compress/">
+            
+                    
+                    compress
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.4.1" data-path="fs/compress/bzip2.html">
+            
+                <a href="fs/compress/bzip2.html">
+            
+                    
+                    bzip2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.4.2" data-path="fs/compress/gzip.html">
+            
+                <a href="fs/compress/gzip.html">
+            
+                    
+                    gzip
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.4.3" data-path="fs/compress/tar.html">
+            
+                <a href="fs/compress/tar.html">
+            
+                    
+                    tar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.4.4" data-path="fs/compress/xz.html">
+            
+                <a href="fs/compress/xz.html">
+            
+                    
+                    xz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.5" data-path="fs/dd.html">
+            
+                <a href="fs/dd.html">
+            
+                    
+                    dd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.6" >
+            
+                <span>
+            
+                    
+                    filemode
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.6.1" data-path="fs/filemode/chmod.html">
+            
+                <a href="fs/filemode/chmod.html">
+            
+                    
+                    chmod
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.6.2" data-path="fs/filemode/umask.html">
+            
+                <a href="fs/filemode/umask.html">
+            
+                    
+                    umask
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7" >
+            
+                <span>
+            
+                    
+                    filesystem
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.7.1" data-path="fs/filesystem/dumpe2fs.html">
+            
+                <a href="fs/filesystem/dumpe2fs.html">
+            
+                    
+                    dumpe2fs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.2" data-path="fs/filesystem/e2fsck.html">
+            
+                <a href="fs/filesystem/e2fsck.html">
+            
+                    
+                    e2fsck
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.3" data-path="fs/filesystem/e4defrag.html">
+            
+                <a href="fs/filesystem/e4defrag.html">
+            
+                    
+                    e4defrag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.4" data-path="fs/filesystem/mkfs.html">
+            
+                <a href="fs/filesystem/mkfs.html">
+            
+                    
+                    mkfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.5" data-path="fs/filesystem/mkfs.xfs.html">
+            
+                <a href="fs/filesystem/mkfs.xfs.html">
+            
+                    
+                    mkfs.xfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.6" data-path="fs/filesystem/mount.html">
+            
+                <a href="fs/filesystem/mount.html">
+            
+                    
+                    mount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.7" data-path="fs/filesystem/xfsdump.html">
+            
+                <a href="fs/filesystem/xfsdump.html">
+            
+                    
+                    xfsdump
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.7.8" data-path="fs/filesystem/xfsprogs/">
+            
+                <a href="fs/filesystem/xfsprogs/">
+            
+                    
+                    xfsprogs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.8" >
+            
+                <span>
+            
+                    
+                    filetype
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.8.1" data-path="fs/filetype/file.html">
+            
+                <a href="fs/filetype/file.html">
+            
+                    
+                    file
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.8.2" data-path="fs/filetype/mkfifo.html">
+            
+                <a href="fs/filetype/mkfifo.html">
+            
+                    
+                    mkfifo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.8.3" data-path="fs/filetype/mknod.html">
+            
+                <a href="fs/filetype/mknod.html">
+            
+                    
+                    mknod
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.9" data-path="fs/getfacl.html">
+            
+                <a href="fs/getfacl.html">
+            
+                    
+                    getfacl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.10" data-path="fs/grep.html">
+            
+                <a href="fs/grep.html">
+            
+                    
+                    grep
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.11" data-path="fs/less.html">
+            
+                <a href="fs/less.html">
+            
+                    
+                    less
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.12" data-path="fs/ln.html">
+            
+                <a href="fs/ln.html">
+            
+                    
+                    ln
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.13" data-path="fs/ls.html">
+            
+                <a href="fs/ls.html">
+            
+                    
+                    ls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.14" data-path="fs/mount.html">
+            
+                <a href="fs/mount.html">
+            
+                    
+                    ls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.15" data-path="fs/od.html">
+            
+                <a href="fs/od.html">
+            
+                    
+                    od
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.16" >
+            
+                <span>
+            
+                    
+                    ownership
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.16.1" data-path="fs/ownership/chgrp.html">
+            
+                <a href="fs/ownership/chgrp.html">
+            
+                    
+                    chgrp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.16.2" data-path="fs/ownership/chown.html">
+            
+                <a href="fs/ownership/chown.html">
+            
+                    
+                    chown
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.17" >
+            
+                <span>
+            
+                    
+                    search
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.17.1" data-path="fs/search/find.html">
+            
+                <a href="fs/search/find.html">
+            
+                    
+                    find
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.17.2" data-path="fs/search/locate.html">
+            
+                <a href="fs/search/locate.html">
+            
+                    
+                    locate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.17.3" data-path="fs/search/whereis.html">
+            
+                <a href="fs/search/whereis.html">
+            
+                    
+                    whereis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.18" >
+            
+                <span>
+            
+                    
+                    secure
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.18.1" data-path="fs/secure/checksum.html">
+            
+                <a href="fs/secure/checksum.html">
+            
+                    
+                    Linus 文件校验
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.19" data-path="fs/setfacl.html">
+            
+                <a href="fs/setfacl.html">
+            
+                    
+                    setfacl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.20" data-path="fs/split.html">
+            
+                <a href="fs/split.html">
+            
+                    
+                    split
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.21" data-path="fs/stat.html">
+            
+                <a href="fs/stat.html">
+            
+                    
+                    stat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.22" data-path="fs/swap/">
+            
+                <a href="fs/swap/">
+            
+                    
+                    swap
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.22.1" data-path="fs/swap/mkswap.html">
+            
+                <a href="fs/swap/mkswap.html">
+            
+                    
+                    mkswap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.22.2" data-path="fs/swap/swapoff.html">
+            
+                <a href="fs/swap/swapoff.html">
+            
+                    
+                    swapoff
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.22.3" data-path="fs/swap/swapon.html">
+            
+                <a href="fs/swap/swapon.html">
+            
+                    
+                    swapon
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.23" data-path="fs/sync.html">
+            
+                <a href="fs/sync.html">
+            
+                    
+                    sync
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.24" data-path="fs/tac.html">
+            
+                <a href="fs/tac.html">
+            
+                    
+                    tac
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.25" data-path="fs/tee.html">
+            
+                <a href="fs/tee.html">
+            
+                    
+                    tee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.26" >
+            
+                <span>
+            
+                    
+                    timestamp
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.26.1" data-path="fs/timestamp/utime.html">
+            
+                <a href="fs/timestamp/utime.html">
+            
+                    
+                    utime/utimes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.27" data-path="fs/touch.html">
+            
+                <a href="fs/touch.html">
+            
+                    
+                    touch
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="gnu/">
+            
+                <a href="gnu/">
+            
+                    
+                    gnu
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.6.1" data-path="gnu/make/">
+            
+                <a href="gnu/make/">
+            
+                    
+                    make
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="head.html">
+            
+                <a href="head.html">
+            
+                    
+                    head
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" >
+            
+                <span>
+            
+                    
+                    help
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.8.1" data-path="help/info.html">
+            
+                <a href="help/info.html">
+            
+                    
+                    info
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8.2" data-path="help/man.html">
+            
+                <a href="help/man.html">
+            
+                    
+                    man - 查看 Linux 参考手册的接口/命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="history.html">
+            
+                <a href="history.html">
+            
+                    
+                    history - 查看命令行历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Linux 命令行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" >
+            
+                <span>
+            
+                    
+                    kernel
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.11.1" data-path="kernel/sysctl.html">
+            
+                <a href="kernel/sysctl.html">
+            
+                    
+                    sysctl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11.2" data-path="kernel/ulimit.html">
+            
+                <a href="kernel/ulimit.html">
+            
+                    
+                    ulimit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" >
+            
+                <span>
+            
+                    
+                    misc
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.12.1" data-path="misc/bc.html">
+            
+                <a href="misc/bc.html">
+            
+                    
+                    bc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12.2" data-path="misc/cal.html">
+            
+                <a href="misc/cal.html">
+            
+                    
+                    cal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12.3" data-path="misc/crontab.html">
+            
+                <a href="misc/crontab.html">
+            
+                    
+                    crontab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12.4" data-path="misc/dmidecode.html">
+            
+                <a href="misc/dmidecode.html">
+            
+                    
+                    dmidecode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" >
+            
+                <span>
+            
+                    
+                    mm
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.13.1" >
+            
+                <span>
+            
+                    
+                    swap
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.13.1.1" data-path="mm/swap/swapoff.html">
+            
+                <a href="mm/swap/swapoff.html">
+            
+                    
+                    swapoff
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13.1.2" data-path="mm/swap/swapon.html">
+            
+                <a href="mm/swap/swapon.html">
+            
+                    
+                    swapon
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="module/">
+            
+                <a href="module/">
+            
+                    
+                    module
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.14.1" data-path="module/lsmod.html">
+            
+                <a href="module/lsmod.html">
+            
+                    
+                    lsmod
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14.2" data-path="module/modinfo.html">
+            
+                <a href="module/modinfo.html">
+            
+                    
+                    modinfo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14.3" data-path="module/modprobe.html">
+            
+                <a href="module/modprobe.html">
+            
+                    
+                    modprobe
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="more.html">
+            
+                <a href="more.html">
+            
+                    
+                    more
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="nano.html">
+            
+                <a href="nano.html">
+            
+                    
+                    nano
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" >
+            
+                <span>
+            
+                    
+                    net
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.17.1" data-path="net/ping.html">
+            
+                <a href="net/ping.html">
+            
+                    
+                    ping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17.2" data-path="net/ssh.html">
+            
+                <a href="net/ssh.html">
+            
+                    
+                    SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17.3" data-path="net/uucp.html">
+            
+                <a href="net/uucp.html">
+            
+                    
+                    uucp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17.4" data-path="net/uuencode.html">
+            
+                <a href="net/uuencode.html">
+            
+                    
+                    uuencode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17.5" data-path="net/uustat.html">
+            
+                <a href="net/uustat.html">
+            
+                    
+                    uustat
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="ps/">
+            
+                <a href="ps/">
+            
+                    
+                    ps
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.18.1" data-path="ps/fuser.html">
+            
+                <a href="ps/fuser.html">
+            
+                    
+                    fuser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.2" data-path="ps/init.html">
+            
+                <a href="ps/init.html">
+            
+                    
+                    init
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.3" data-path="ps/kill.html">
+            
+                <a href="ps/kill.html">
+            
+                    
+                    kill
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.4" data-path="ps/lsof.html">
+            
+                <a href="ps/lsof.html">
+            
+                    
+                    lsof
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.5" data-path="ps/netstat.html">
+            
+                <a href="ps/netstat.html">
+            
+                    
+                    netstat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.6" data-path="ps/nohup.html">
+            
+                <a href="ps/nohup.html">
+            
+                    
+                    nohup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.7" data-path="ps/pgrep-pkill.html">
+            
+                <a href="ps/pgrep-pkill.html">
+            
+                    
+                    pgrep 与 pkill
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.8" data-path="ps/pgrep.html">
+            
+                <a href="ps/pgrep.html">
+            
+                    
+                    pgrep
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.9" data-path="ps/ps.html">
+            
+                <a href="ps/ps.html">
+            
+                    
+                    ps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.10" data-path="ps/pstack.html">
+            
+                <a href="ps/pstack.html">
+            
+                    
+                    pstack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.11" data-path="ps/pstree.html">
+            
+                <a href="ps/pstree.html">
+            
+                    
+                    pstree
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.12" data-path="ps/time.html">
+            
+                <a href="ps/time.html">
+            
+                    
+                    time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18.13" data-path="ps/top.html">
+            
+                <a href="ps/top.html">
+            
+                    
+                    top
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="sccs/">
+            
+                <a href="sccs/">
+            
+                    
+                    sccs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.19.1" data-path="sccs/admin.html">
+            
+                <a href="sccs/admin.html">
+            
+                    
+                    admin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.2" data-path="sccs/delta.html">
+            
+                <a href="sccs/delta.html">
+            
+                    
+                    delta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.3" data-path="sccs/get.html">
+            
+                <a href="sccs/get.html">
+            
+                    
+                    get
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.4" data-path="sccs/prs.html">
+            
+                <a href="sccs/prs.html">
+            
+                    
+                    prs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.5" data-path="sccs/rmdel.html">
+            
+                <a href="sccs/rmdel.html">
+            
+                    
+                    rmdel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.6" data-path="sccs/sact.html">
+            
+                <a href="sccs/sact.html">
+            
+                    
+                    scat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.7" data-path="sccs/sccs.html">
+            
+                <a href="sccs/sccs.html">
+            
+                    
+                    sccs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.8" data-path="sccs/unget.html">
+            
+                <a href="sccs/unget.html">
+            
+                    
+                    unget
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.9" data-path="sccs/val.html">
+            
+                <a href="sccs/val.html">
+            
+                    
+                    val
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19.10" data-path="sccs/what.html">
+            
+                <a href="sccs/what.html">
+            
+                    
+                    what
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.20" >
+            
+                <span>
+            
+                    
+                    search
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.20.1" data-path="search/apropos.html">
+            
+                <a href="search/apropos.html">
+            
+                    
+                    apropos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.20.2" data-path="search/whatis.html">
+            
+                <a href="search/whatis.html">
+            
+                    
+                    whatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.21" data-path="sed.html">
+            
+                <a href="sed.html">
+            
+                    
+                    sed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.22" data-path="shell/">
+            
+                <a href="shell/">
+            
+                    
+                    shell
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.22.1" data-path="shell/chsh.html">
+            
+                <a href="shell/chsh.html">
+            
+                    
+                    chsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.23" data-path="sort.html">
+            
+                <a href="sort.html">
+            
+                    
+                    sort
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24" data-path="stat/">
+            
+                <a href="stat/">
+            
+                    
+                    stat
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.1" >
+            
+                <span>
+            
+                    
+                    cpu
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.1.1" data-path="stat/cpu/lscpu.html">
+            
+                <a href="stat/cpu/lscpu.html">
+            
+                    
+                    lscpu
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.2" >
+            
+                <span>
+            
+                    
+                    disk
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.2.1" data-path="stat/disk/blockdev.html">
+            
+                <a href="stat/disk/blockdev.html">
+            
+                    
+                    blockdev
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.2.2" data-path="stat/disk/df.html">
+            
+                <a href="stat/disk/df.html">
+            
+                    
+                    df
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.2.3" data-path="stat/disk/fdisk.html">
+            
+                <a href="stat/disk/fdisk.html">
+            
+                    
+                    fdisk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.2.4" data-path="stat/disk/lsblk.html">
+            
+                <a href="stat/disk/lsblk.html">
+            
+                    
+                    lsblk
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.3" >
+            
+                <span>
+            
+                    
+                    hardware
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.3.1" data-path="stat/hardware/lshw.html">
+            
+                <a href="stat/hardware/lshw.html">
+            
+                    
+                    lshw
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.4" data-path="stat/inxi.html">
+            
+                <a href="stat/inxi.html">
+            
+                    
+                    inxi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.5" data-path="stat/iostat.html">
+            
+                <a href="stat/iostat.html">
+            
+                    
+                    iostat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.6" >
+            
+                <span>
+            
+                    
+                    memory
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.6.1" data-path="stat/memory/free.html">
+            
+                <a href="stat/memory/free.html">
+            
+                    
+                    free
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.6.2" data-path="stat/memory/slabtop.html">
+            
+                <a href="stat/memory/slabtop.html">
+            
+                    
+                    slabtop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.6.3" data-path="stat/memory/vmstat.html">
+            
+                <a href="stat/memory/vmstat.html">
+            
+                    
+                    vmstat
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.7" >
+            
+                <span>
+            
+                    
+                    pci
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.7.1" data-path="stat/pci/lspci.html">
+            
+                <a href="stat/pci/lspci.html">
+            
+                    
+                    lspci
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.8" >
+            
+                <span>
+            
+                    
+                    process
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.8.1" data-path="stat/process/top.html">
+            
+                <a href="stat/process/top.html">
+            
+                    
+                    top
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.24.9" >
+            
+                <span>
+            
+                    
+                    usb
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.24.9.1" data-path="stat/usb/lsusb.html">
+            
+                <a href="stat/usb/lsusb.html">
+            
+                    
+                    lsusb
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.25" data-path="su.html">
+            
+                <a href="su.html">
+            
+                    
+                    su
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.26" data-path="sudo.html">
+            
+                <a href="sudo.html">
+            
+                    
+                    sudo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.27" data-path="syscall/">
+            
+                <a href="syscall/">
+            
+                    
+                    syscall
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.27.1" data-path="syscall/strace.html">
+            
+                <a href="syscall/strace.html">
+            
+                    
+                    strace
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28" >
+            
+                <span>
+            
+                    
+                    system
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.28.1" >
+            
+                <span>
+            
+                    
+                    environment
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.28.1.1" data-path="system/environment/env.html">
+            
+                <a href="system/environment/env.html">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.1.2" data-path="system/environment/export.html">
+            
+                <a href="system/environment/export.html">
+            
+                    
+                    export
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.1.3" data-path="system/environment/printenv.html">
+            
+                <a href="system/environment/printenv.html">
+            
+                    
+                    printenv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.1.4" data-path="system/environment/set.html">
+            
+                <a href="system/environment/set.html">
+            
+                    
+                    set
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.1.5" data-path="system/environment/setenv.html">
+            
+                <a href="system/environment/setenv.html">
+            
+                    
+                    setenv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.1.6" data-path="system/environment/unset.html">
+            
+                <a href="system/environment/unset.html">
+            
+                    
+                    unset
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.2" data-path="system/monitoring/">
+            
+                <a href="system/monitoring/">
+            
+                    
+                    monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.3" data-path="system/shutdown/">
+            
+                <a href="system/shutdown/">
+            
+                    
+                    shutdown
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.28.3.1" data-path="system/shutdown/halt.html">
+            
+                <a href="system/shutdown/halt.html">
+            
+                    
+                    halt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.3.2" data-path="system/shutdown/poweroff.html">
+            
+                <a href="system/shutdown/poweroff.html">
+            
+                    
+                    poweroff.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.3.3" data-path="system/shutdown/reboot.html">
+            
+                <a href="system/shutdown/reboot.html">
+            
+                    
+                    重启
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.3.4" data-path="system/shutdown/shutdown.html">
+            
+                <a href="system/shutdown/shutdown.html">
+            
+                    
+                    shutdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.4" data-path="system/timedatectl.html">
+            
+                <a href="system/timedatectl.html">
+            
+                    
+                    timedatectl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.5" data-path="system/uptime.html">
+            
+                <a href="system/uptime.html">
+            
+                    
+                    uptime - 系统运行时间及平均负载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.6" data-path="system/w.html">
+            
+                <a href="system/w.html">
+            
+                    
+                    w
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.28.7" data-path="system/who.html">
+            
+                <a href="system/who.html">
+            
+                    
+                    who
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.29" data-path="tail.html">
+            
+                <a href="tail.html">
+            
+                    
+                    tail
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.30" data-path="terminal/">
+            
+                <a href="terminal/">
+            
+                    
+                    terminal
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.30.1" data-path="terminal/screen.html">
+            
+                <a href="terminal/screen.html">
+            
+                    
+                    screen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.30.2" data-path="terminal/stty.html">
+            
+                <a href="terminal/stty.html">
+            
+                    
+                    stty
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.30.3" data-path="terminal/tmux.html">
+            
+                <a href="terminal/tmux.html">
+            
+                    
+                    tmux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.31" data-path="tr.html">
+            
+                <a href="tr.html">
+            
+                    
+                    tr
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.32" data-path="type.html">
+            
+                <a href="type.html">
+            
+                    
+                    type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.33" data-path="uniq.html">
+            
+                <a href="uniq.html">
+            
+                    
+                    uniq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.34" data-path="vi.html">
+            
+                <a href="vi.html">
+            
+                    
+                    vi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.35" data-path="watch.html">
+            
+                <a href="watch.html">
+            
+                    
+                    watch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.36" data-path="wc.html">
+            
+                <a href="wc.html">
+            
+                    
+                    wc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.37" data-path="xargs.html">
+            
+                <a href="xargs.html">
+            
+                    
+                    xargs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GNU</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../gnu/awk/">
+            
+                <a href="../gnu/awk/">
+            
+                    
+                    awk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../gnu/bc.html">
+            
+                <a href="../gnu/bc.html">
+            
+                    
+                    GNU bc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../gnu/make.html">
+            
+                <a href="../gnu/make.html">
+            
+                    
+                    GNU make
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">misc</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../misc/aliases/">
+            
+                <a href="../misc/aliases/">
+            
+                    
+                    aliases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../misc/configuration.html">
+            
+                <a href="../misc/configuration.html">
+            
+                    
+                    Shell 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" >
+            
+                <span>
+            
+                    
+                    features
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.3.1" data-path="../misc/features/commands.html">
+            
+                <a href="../misc/features/commands.html">
+            
+                    
+                    Shell 命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.2" data-path="../misc/features/executing-cmd.html">
+            
+                <a href="../misc/features/executing-cmd.html">
+            
+                    
+                    Shell 执行命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.3" data-path="../misc/features/expansions.html">
+            
+                <a href="../misc/features/expansions.html">
+            
+                    
+                    Shell 扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.4" data-path="../misc/features/functions.html">
+            
+                <a href="../misc/features/functions.html">
+            
+                    
+                    Shell 函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.5" data-path="../misc/features/parameters.html">
+            
+                <a href="../misc/features/parameters.html">
+            
+                    
+                    Shell 参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.6" data-path="../misc/features/redirections.html">
+            
+                <a href="../misc/features/redirections.html">
+            
+                    
+                    Shell 重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.7" data-path="../misc/features/scripts.html">
+            
+                <a href="../misc/features/scripts.html">
+            
+                    
+                    Shell 脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3.8" data-path="../misc/features/syntax.html">
+            
+                <a href="../misc/features/syntax.html">
+            
+                    
+                    Shell 语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >type</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="type">type</h1>
+<p><code>type COMMAND</code> &#x7528;&#x4E8E;&#x5224;&#x65AD;&#x547D;&#x4EE4;&#x7684;&#x7C7B;&#x578B;&#x3002;</p>
+<h2 id="&#x547D;&#x4EE4;&#x7C7B;&#x578B;">&#x547D;&#x4EE4;&#x7C7B;&#x578B;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x547D;&#x4EE4;&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;</td>
+<td>&#xFF5E;</td>
+</tr>
+<tr>
+<td>shell &#x5185;&#x7F6E;&#x547D;&#x4EE4;</td>
+<td>&#x53EF;&#x4EE5;&#x5728;&#x8FD0;&#x884C;&#x7684; shell &#x8FDB;&#x7A0B;&#x4E2D;&#x6267;&#x884C;&#x7684;&#x547D;&#x4EE4;</td>
+</tr>
+<tr>
+<td>&#x522B;&#x540D;</td>
+<td>&#xFF5E;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x793A;&#x4F8B;">&#x793A;&#x4F8B;</h2>
+<pre><code class="lang-sh">$ <span class="hljs-built_in">type</span> ps
+ps is /bin/ps
+
+$ <span class="hljs-built_in">type</span> ll
+ll is aliased to `ls -laF<span class="hljs-string">&apos;
+
+$ type wget
+wget is /usr/local/bin/wget
+
+$ type man
+man is hashed (/usr/bin/man)
+</span></code></pre>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Copyright &#xA9; 2019-2020 | CC BY-NC-SA 4.0 <br> &#x76F8;&#x5173;&#x7F51;&#x7AD9;: <a href="https://githome.io/knowledge-base/" target="_blank">&#x77E5;&#x8BC6;&#x5E93;</a> <a href="https://weplay.me" target="_blank">&#x5FAE;&#x67B6;&#x6784;&#x5E08;</a> <a href="https://quickstarts.io" target="_blank">&#x5FEB;&#x901F;&#x5165;&#x95E8;</a> </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x66F4;&#x65B0;&#x4E8E; 2020-03-09 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="tr.html" class="navigation navigation-prev " aria-label="Previous page: tr">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="uniq.html" class="navigation navigation-next " aria-label="Next page: uniq">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"type","level":"6.32","depth":1,"next":{"title":"uniq","level":"6.33","depth":1,"path":"cmd/uniq.md","ref":"cmd/uniq.md","articles":[]},"previous":{"title":"tr","level":"6.31","depth":1,"path":"cmd/tr.md","ref":"cmd/tr.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-fontsettings","-sharing","highlight","github","-lunr","-search","search-pro","-ga","-page-toc","-splitter","-lightbox","-github-buttons@2.1.0","-custom-favicon","-summary","sitemap-general","edit-link","page-footer-ex"],"styles":{"website":"website.css"},"pluginsConfig":{"github":{"url":"https://github.com/jinsyin/shell"},"page-footer-ex":{"copyright":"Copyright © 2019-2020 | CC BY-NC-SA 4.0 <br/> 相关网站: [知识库](https://githome.io/knowledge-base/) [微架构师](https://weplay.me) [快速入门](https://quickstarts.io)","markdown":true,"update_format":"YYYY-MM-DD","update_label":"更新于"},"search-pro":{},"page-toc":{"selector":".markdown-section h2, .markdown-section h3, .markdown-section h4","position":"top","showByDefault":true},"sitemap-general":{"prefix":"https://githome.io/shell/"},"highlight":{},"favicon":"favicon.ico","github-buttons":{"repo":"jinsyin/shell","types":["star"],"size":"small"},"ga":{"token":"UA-12345678-1"},"edit-link":{"label":"编辑","base":"https://github.com/jinsyin/shell/blob/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Jins Yin","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《Shell》","language":"zh-hans","links":{"sidebar":{"知识库":"https://githome.io/knowledge-base/","微架构师":"https://weplay.me","快速入门":"https://quickstarts.io"}},"gitbook":"*","description":"Shell，Unix/Linux 命令行"},"file":{"path":"cmd/type.md","mtime":"2020-03-09T14:08:28.366Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-09T14:09:10.062Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+
+    </body>
+</html>
+
