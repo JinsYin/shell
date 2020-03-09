@@ -1,10 +1,11 @@
 {
-  "title": "《GitBook Template》",
-  "description": "描述",
+  "title": "《Shell》",
+  "description": "Shell，Unix/Linux 命令行",
   "language": "zh-hans",
   "author": "Jins Yin",
   "links": {
     "sidebar": {
+      "知识库": "https://githome.io/knowledge-base/",
       "微架构师": "https://weplay.me",
       "快速入门": "https://quickstarts.io"
     }
@@ -33,10 +34,10 @@
   ],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/jinsyin/gitbook-template"
+      "url": "https://github.com/jinsyin/shell"
     },
     "github-buttons": {
-      "repo": "jinsyin/gitbook-template",
+      "repo": "jinsyin/shell",
       "types": [
         "star"
       ],
@@ -46,12 +47,12 @@
       "token": "UA-12345678-1"
     },
     "edit-link": {
-      "base": "https://github.com/jinsyin/gitbook-template/blob/master/",
+      "base": "https://github.com/jinsyin/shell/blob/master/",
       "label": "编辑"
     },
     "favicon": "favicon.ico",
     "sitemap-general": {
-      "prefix": "https://weplay.me/gitbook-template/"
+      "prefix": "https://githome.io/shell/"
     },
     "page-toc": {
       "selector": ".markdown-section h2, .markdown-section h3, .markdown-section h4",
@@ -59,7 +60,7 @@
       "showByDefault": true
     },
     "page-footer-ex": {
-      "copyright": "Copyright © 2019-2020 | CC BY-NC-SA 4.0 <br/> 相关网站: [知识库](https://weplay.me) [微架构师](https://weplay.me) [快速入门](https://quickstarts.io)",
+      "copyright": "Copyright © 2019-2020 | CC BY-NC-SA 4.0 <br/> 相关网站: [知识库](https://githome.io/knowledge-base/) [微架构师](https://weplay.me) [快速入门](https://quickstarts.io)",
       "markdown": true,
       "update_label": "更新于",
       "update_format": "YYYY-MM-DD"
