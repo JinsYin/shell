@@ -2,7 +2,7 @@
 
 [![website][website-image]][website-href]
 
-[website-image]: https://img.shields.io/website-up-down-green-red/https/githome.io/gitbook-template/.svg
+[website-image]: https://img.shields.io/website-up-down-green-red/https/githome.io/shell/.svg
 [website-href]: https://githome.io/shell/
 
 _Shell_ 意为 `壳`（Kernel 意为 `核`），是一种特殊用途的程序，用于读取用户输入的命令以执行相应的程序，所以有时也称为 _命令解释器_，同时也是编程语言。
